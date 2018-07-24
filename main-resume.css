@@ -1,0 +1,48 @@
+header.page-header {
+    background: no-repeat left/cover url(/media/examples/puppy-header-logo.jpg);
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: #000;
+    //text-shadow: #000 0 0 .2em;
+}
+
+header.page-header > h1 {
+     //font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+    font-family: Verdana, Helvetica, sans-serif;    
+    margin: 20%;
+}
+h2 {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+p {
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+main {
+    //font: 1rem 'Fira Sans', sans-serif;
+}
+address {
+  font-family: 'Arial Narrow Bold', sans-serif; 
+
+}
+.contact-img {
+    border: #000;
+    border-width: 5px;
+    width: 10%;
+}
+a {
+    font-variant: normal;
+}
+li {
+    list-style-type: none;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+li li {
+    list-style-type: square;
+}
+.job-title {
+  font-weight: bold;
+
+}
